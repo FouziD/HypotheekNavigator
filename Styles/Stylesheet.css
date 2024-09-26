@@ -1,11 +1,11 @@
 body
 {
-    background-color: gray;
+    background-color: blue;
 }
 
 ul
 {
-
+    color: black;
 
 }
 li
@@ -13,11 +13,14 @@ li
     position: relative;
     width: 33vw;
     text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+
 }
 
 header
 {
-    background-color: red;
+    background-color: white;
     top: 0px;
     position: fixed;
     z-index: -1;
