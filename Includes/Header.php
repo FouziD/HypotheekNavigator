@@ -21,7 +21,7 @@
 </head>
 <body>
 <?php
-    $homeurl = "http://localhost/Project_thema3/HypotheekNavigator/";
+    $homeurl = "http://localhost/Project_thema3/";
 ?>
 <header>
     <ul>
