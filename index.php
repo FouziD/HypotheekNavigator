@@ -4,20 +4,23 @@
 <body>
     <main>
         <h1>Hypotheek Navigator</h1>
+        <h3>
+            HypotheekNavigator is een revolutionaire online hypotheekadviseur die klanten helpt de juiste richting te kiezen in een overbeladen hypotheekwereld. Onze visie is om het hele proces van een hypotheek aanvragen makkelijker en begrijpelijker te krijgen voor iedereen, of je nou een starter op de woningmarkt bent, of een doorstromer die zijn huidige woning wil verkopen.
+        </h3>
         <h2>
-            Welkom bij Hypotheek Navigator
+            Wat zijn de voordelen?
         </h2>
         <p>
-            Welkom bij Hypotheek Navigator waar wij al uw vragen over het kopen van huizen kunnen beantwoorden.
+            Persoonlijk advies: Met een hele eenvoudige en intuïtieve online tool krijg je inzicht in je maximale leenbaarheid en ontvang je advies toegespitst op jouw persoonlijke situatie.
+            <br>Efficiëncy: Wij vragen U slechts in 5 minuten de vragenlijst in te vullen en u zult sneller uw tijd kunnen investeren van vele specificatieproducten aan mutaties.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit ipsum, sodales nec metus at, dapibus vestibulum eros. Aenean ullamcorper congue erat nec egestas. In hac habitasse platea dictumst. Quisque consectetur risus vitae malesuada aliquet. Sed aliquam suscipit tempus. Nunc finibus nibh mauris, sed finibus mauris aliquet vel. Vivamus felis eros, finibus quis libero sit amet, mollis viverra ante. Mauris rhoncus metus quis turpis consequat, sit amet tincidunt elit accumsan. Praesent ac ligula vitae nunc lacinia iaculis ac in sapien. Sed ipsum magna, faucibus eget varius non, auctor lacinia nisi. Etiam non sem libero. Sed at facilisis tellus, id ultrices metus. Proin turpis ante, consequat sed tortor ut, mattis malesuada tortor. Suspendisse sed risus magna. Nam viverra condimentum ligula eu suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-        </p>
-        <h2>
-            Lorem ipsum
-        </h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit ipsum, sodales nec metus at, dapibus vestibulum eros. Aenean ullamcorper congue erat nec egestas. In hac habitasse platea dictumst. Quisque consectetur risus vitae malesuada aliquet. Sed aliquam suscipit tempus. Nunc finibus nibh mauris, sed finibus mauris aliquet vel. Vivamus felis eros, finibus quis libero sit amet, mollis viverra ante. Mauris rhoncus metus quis turpis consequat, sit amet tincidunt elit accumsan. Praesent ac ligula vitae nunc lacinia iaculis ac in sapien. Sed ipsum magna, faucibus eget varius non, auctor lacinia nisi. Etiam non sem libero. Sed at facilisis tellus, id ultrices metus. Proin turpis ante, consequat sed tortor ut, mattis malesuada tortor. Suspendisse sed risus magna. Nam viverra condimentum ligula eu suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            24/7 bereikbaarheid: Ga door met het invullen van de vragenlijst wanneer het voor U prettig is zonder te wachten of zonder afspraken.
+            <br> Kwaliteit en expertise: Ons team ervaren hypotheekadviseurs zijn er om ook tijdens de looptijd van uw hypotheek u te supporten.
+            <br> Waarom HypotheekNavigator kiezen?
+            Wij bij HypotheekNavigator vinden dat iedereen recht heeft op begrijpelijk, betrouwbaar hypotheekadvies. <br> We combineren technologie en persoonlijke aandacht om ervoor zorgen dat u goed afgewogen keuzes kunt maken.
+            <br> Heeft u vragen over hoeveel u maximaal kunt lenen, welke hypotheekvorm het best bij uw situatie past of hoelang de bijbehorende maandlasten zullen zijn, wij zullen je helpen.
+           <br> Leer vandaag nog hoe wij uw aankoop van een nieuw huis kunnen vergemakkelijken!
         </p>
     </main>
 </body>
