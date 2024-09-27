@@ -20,16 +20,19 @@
     <link href="../Styles/Stylesheet.css" rel="stylesheet">
 </head>
 <body>
+<?php
+    $homeurl = "http://localhost/Project_thema3/HypotheekNavigator/";
+?>
 <header>
     <ul>
         <li>
-            <a href="../index.php">Homepage</a>
+            <a href="<?php echo $homeurl; ?>">Homepage</a>
         </li>
         <li>
-            <a href="../Pages/OverOns.php">Over Ons</a>
+            <a href="<?php echo $homeurl; ?>pages/OverOns.php"> Over Ons</a>
         </li>
         <li>
-            <a href="../Pages/VragenLijst.php">Vragenlijst</a>
+            <a href="<?php echo $homeurl; ?>pages/VragenLijst.php">Vragenlijst</a>
         </li>
     </ul>
 </header>
