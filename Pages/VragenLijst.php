@@ -6,7 +6,7 @@ include "../Includes/Header.php";
     <form action="VragenAntwoord.php" method="get">
         <p>Voer uw voor en achternaam in<br> <input type="text" name="VoorenAchter" ></p>
         <p>Voer uw leeftijd in<br><input type="number" name="Leeftijd" ></p>
-        <p><br><input type="number" name="Leeftijd" ></p>
+        <p>Heeft u eerder<br><input type="number" name="Leeftijd" ></p>
         <p>Voer uw leeftijd in<br><input type="number" name="Leeftijd" ></p>
         <p>Voer uw leeftijd in<br><input type="number" name="Leeftijd" ></p>
     </form>
