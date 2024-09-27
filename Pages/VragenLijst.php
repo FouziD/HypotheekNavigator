@@ -67,8 +67,18 @@ include "../Includes/Header.php";
         </h4>
         <h4>
             Bent u van plan om binnen de komende 12 maanden een woning te kopen?<br>
-            <input type="radio" name="JaofNee" value="Ja" checked>
-            Nee <input type="radio" name="JaofNee" value="nee">
+            Ja,zeker<input type="radio" name="Kopen?" value="Ja,zeker" checked>
+            Misschien<input type="radio" name="Kopen?" value="Misschien">
+            Nee<input type="radio" name="Kopen?" value="Nee">
+        </h4>
+        <h4>
+            Wat is voor u het belangrijkste bij het kopen van een woning?<br>
+            <input type="text" name="Belangerijkste">
+        </h4>
+        <h4>
+            Heeft u al eerder een woning gekocht?<br>
+            Ja<input type="radio" name="Eerdergekocht" value="Ja" checked>
+            Nee <input type="radio" name="Eerdergekocht" value="nee">
         </h4>
     </form>
 </main>
