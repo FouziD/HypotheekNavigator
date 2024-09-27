@@ -1,6 +1,6 @@
 body
 {
-    background-color: blue;
+    background-color: #8b8bd5;
 }
 
 ul
@@ -20,7 +20,7 @@ li
 
 header
 {
-    background-color: white;
+    background-color: aliceblue;
     top: 0px;
     position: fixed;
     z-index: -1;
@@ -33,4 +33,5 @@ main
     top: 10vh;
     position: relative;
     text-align: center;
+    z-index: 1;
  }

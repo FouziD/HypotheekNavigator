@@ -17,18 +17,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Styles/Stylesheet.css" rel="stylesheet">
+    <link href="../Styles/Stylesheet.css" rel="stylesheet">
 </head>
 <body>
 <header>
     <ul>
         <li>
-            <a href="index.php">Homepage</a>
+            <a href="../index.php">Homepage</a>
         </li>
         <li>
-            <a href="Pages/OverOns">Over Ons</a>
+            <a href="../Pages/OverOns.php">Over Ons</a>
         </li>
         <li>
-            <a href="Pages/VragenLijst">Vragenlijst</a>
+            <a href="../Pages/VragenLijst.php">Vragenlijst</a>
         </li>
     </ul>
 </header>
