@@ -80,6 +80,19 @@ include "../Includes/Header.php";
             Ja<input type="radio" name="Eerdergekocht" value="Ja" checked>
             Nee <input type="radio" name="Eerdergekocht" value="nee">
         </h4>
+        <h4>
+            Hoeveel tijd bent u bereid te besteden aan het zoeken naar een woning?<br>
+            <select name="Tijd">
+                <option value="Minder dan een maand">Minder dan een maand</option>
+                <option value="1-3 maanden">1-3 maanden</option>
+                <option value="3-6 maanden">3-6 maanden</option>
+                <option value="Langer dan 6 maanden">Langer dan 6 maanden</option>
+            </select>
+        </h4>
+        <h4>
+            Wat is uw favorieten type woning<br>
+            <input type="text" name="Favo">
+        </h4>
     </form>
 </main>
 </body>
