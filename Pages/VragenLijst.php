@@ -49,13 +49,26 @@ include "../Includes/Header.php";
         <h4>
             Wat is de geschatte waarde van de woning die u wilt kopen?<br>
             <select name="Waarde">
-                <option value="•	Minder dan €200.000">Minder dan €200.000 </option>
-                <option value="•	€200.000 - €300.000">Minder dan €200.000 </option>
-                <option value="•	Minder dan €200.000">Minder dan €200.000 </option>
-                <option value="•	Minder dan €200.000">Minder dan €200.000 </option>
-                <option value="•	Minder dan €200.000">Minder dan €200.000 </option>
-                <option value="•	Minder dan €200.000">Minder dan €200.000 </option>
+                <option value="Minder dan €200.000">Minder dan €200.000 </option>
+                <option value="€200.000 - €300.000">€200.000 - €300.000 </option>
+                <option value="€300.000 - €400.000">€300.000 - €400.000 </option>
+                <option value="€400.000 - €500.000">€400.000 - €500.000 </option>
+                <option value="Meer dan €500.000">Meer dan €500.000 </option>
             </select>
+        </h4>
+        <h4>
+            Wat is uw huidige woonsituatie?<br>
+            <select name="Huidig">
+                <option value="Huurwoning">Huurwoning </option>
+                <option value="Koopwoning">Koopwoning </option>
+                <option value="Bij ouders/wederzijdse">Bij ouders/wederzijdse </option>
+                <option value="Anders">Anders </option>
+            </select>
+        </h4>
+        <h4>
+            Bent u van plan om binnen de komende 12 maanden een woning te kopen?<br>
+            <input type="radio" name="JaofNee" value="Ja" checked>
+            Nee <input type="radio" name="JaofNee" value="nee">
         </h4>
     </form>
 </main>
