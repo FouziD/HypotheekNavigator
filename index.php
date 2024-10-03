@@ -31,7 +31,6 @@ De homepage van Hypotheek Navigator
         </p>
     </main>
     <?php
-
     include "Includes/Footer.php";
     ?>
 </body>
