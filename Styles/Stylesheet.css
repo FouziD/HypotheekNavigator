@@ -67,3 +67,11 @@ form, input, select, option,h4
     width: 5vw;
     height: 9vh;
 }
+footer
+{
+    background-color: aliceblue;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100vw;
+}
