@@ -125,4 +125,7 @@ include "../Includes/Header.php";
        <input type="submit">
     </form>
 </main>
+<?php
+include "../Includes/Footer.php";
+?>
 </body>
