@@ -108,12 +108,11 @@ include "../Includes/Header.php";
         </h4>
         <h4>
             Bent u bekend met de huidige huizenmarkt in uw regio?<br>
-            <select name="FinancieringsVorm">
-                <option value="Ja, zeer goed">Ja, zeer goed</option>
-                <option value="Enigszins">Enigszins</option>
-                <option value="Nee, helemaal niet">Nee, helemaal niet</option>
-            </select>
+            ja,zeker<input type="radio" name="Kopen?" value="Ja,zeker" checked>
+            Enigszins<input type="radio" name="Kopen?" value="Enigszins">
+            Nee<input type="radio" name="Kopen?" value="Nee">
         </h4>
+       <input type="submit">
     </form>
 </main>
 </body>
