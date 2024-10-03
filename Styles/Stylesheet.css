@@ -60,3 +60,10 @@ form, input, select, option,h4
 {
     z-index: 1;
 }
+
+#logo
+{
+    float: right;
+    width: 5vw;
+    height: 9vh;
+}
