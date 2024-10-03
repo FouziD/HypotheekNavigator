@@ -2,7 +2,7 @@
 /**
  * User: T. de Wit, F. Dada
  * Date: 20 - 9 - 2024
- * File: index.php
+ * File: header.php
  */
 ?>
 <!DOCTYPE html>
@@ -33,6 +33,9 @@
         </li>
         <li>
             <a href="<?php echo $homeurl; ?>pages/VragenLijst.php">Vragenlijst</a>
+        </li>
+        <li>
+            <img id="logo" src="<?php echo $homeurl; ?>images/IconOnly_Transparent_NoBuffer.png" alt="logo">
         </li>
     </ul>
 </header>
