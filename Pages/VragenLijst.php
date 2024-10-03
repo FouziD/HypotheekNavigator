@@ -12,7 +12,7 @@ include "../Includes/Header.php";
     <form action="VragenAntwoord.php" method="get">
         <h4>
             1. Voer uw voor en achternaam in<br>
-            <input type="text" name="VoorenAchter" >
+            <input type="text" name="VoorenAchter"  required>
         </h4>
         <h4>
             2. Heeft u al eerdere ervaring met huizen kopen?<br>Ja
@@ -21,7 +21,7 @@ include "../Includes/Header.php";
         </h4>
         <h4>
             3. Wat is uw leeftijd<br>
-            <input type="number" name="Leeftijd" >
+            <input type="number" name="Leeftijd" required>
         </h4>
         <h4>
             4. Wat is uw jaarlijkse bruto inkomen<br>
@@ -73,7 +73,7 @@ include "../Includes/Header.php";
         </h4>
         <h4>
             9. Hoeveel personen wonen er momenteel in uw huishouden?<br>
-            <input type="number" name="Aantal">
+            <input type="number" name="Aantal" required>
         </h4>
         <h4>
             10. Bent u van plan om binnen de komende 12 maanden een woning te kopen?<br>
@@ -83,7 +83,7 @@ include "../Includes/Header.php";
         </h4>
         <h4>
            11. Wat is voor u het belangrijkste bij het kopen van een woning?<br>
-            <input type="text" name="Belangerijkste">
+            <input type="text" name="Belangerijkste" required>
         </h4>
         <h4>
             12. Heeft u al eerder een woning gekocht?<br>
@@ -101,7 +101,7 @@ include "../Includes/Header.php";
         </h4>
         <h4>
             14. Wat is uw favorieten type woning<br>
-            <input type="text" name="Favo">
+            <input type="text" name="Favo" required>
         </h4>
         <h4>
             15. Welke financieringsvorm overweegt u voor de aankoop van uw woning?<br>
@@ -114,7 +114,7 @@ include "../Includes/Header.php";
         </h4>
         <h4>
             16. Wat is uw belangrijkste bron van informatie bij het kopen van een woning?<br>
-            <input type="text" name="Info">
+            <input type="text" name="Info" required>
         </h4>
         <h4>
             17. Bent u bekend met de huidige huizenmarkt in uw regio?<br>

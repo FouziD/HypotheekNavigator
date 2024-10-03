@@ -30,4 +30,8 @@ De homepage van Hypotheek Navigator
            <br> Leer vandaag nog hoe wij uw aankoop van een nieuw huis kunnen vergemakkelijken!
         </p>
     </main>
+    <?php
+
+    include "Includes/Footer.php";
+    ?>
 </body>
