@@ -109,15 +109,15 @@ include "../Includes/Header.php";
             </select>
         </h4>
         <h4>
-            Wat is uw belangrijkste bron van informatie bij het kopen van een woning?
+            Wat is uw belangrijkste bron van informatie bij het kopen van een woning?<br>
             <input type="text" name="Info">
         </h4>
         <h4>
-            Welke financieringsvorm overweegt u voor de aankoop van uw woning?<br>
+            Bent u bekend met de huidige huizenmarkt in uw regio?<br>
             <select name="FinancieringsVorm">
-                <option value="Ja, zeer goed">Hypotheek</option>
-                <option value="Enigszins">Eigen middelen</option>
-                <option value="Combinatie van beide">Combinatie van beide</option>
+                <option value="Ja, zeer goed">Ja, zeer goed</option>
+                <option value="Enigszins">Enigszins</option>
+                <option value="Nee, helemaal niet">Nee, helemaal niet</option>
             </select>
         </h4>
     </form>
