@@ -38,4 +38,13 @@
             <img id="logo" src="<?php echo $homeurl; ?>images/IconOnly_Transparent_NoBuffer.png" alt="logo">
         </li>
     </ul>
+
+
+    <p id="tijd">
+    <?php
+    date_default_timezone_set('europe/amsterdam');
+    echo  date("h:i") . "<br>";
+    echo date("d-m-y");
+    ?>
+    </p>
 </header>

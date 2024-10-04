@@ -63,9 +63,10 @@ form, input, select, option,h4
 
 #logo
 {
-    float: right;
+    right: 0;
     width: 5vw;
     height: 9vh;
+    position: fixed;
 }
 footer
 {
@@ -74,5 +75,18 @@ footer
     position: fixed;
     left: 0;
     width: 100vw;
-    text-align: right;
+    text-align: center;
+}
+
+#tijd
+{
+    position: fixed;
+    right: 150px;
+    top: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: dotted;
+    width: 100px;
+    height: 40px;
 }
