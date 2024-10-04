@@ -92,15 +92,25 @@ footer
     height: 40px;
 }
 
-.Flexbox
+#fouzi
 {
     display: flex;
     justify-content: center;
     height: 200px;
+    width: 500px;
     background-color: white;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
-
-.FlexImg
+#tristan
 {
-    width: 10vw;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 500px;
+    background-color: darkcyan;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
