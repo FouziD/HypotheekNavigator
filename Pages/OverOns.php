@@ -4,7 +4,6 @@ Date: 04-10-2024
 
 De pagina over de developers van hypotheek navigator
 -->
-
 <?php
 include "../Includes/Header.php";
 ?>
@@ -14,7 +13,7 @@ include "../Includes/Header.php";
         Over Ons
     </h1>
     <p>
-        Wij zijn de developers van HypotheekNavigator onze namen zijn Tristan de Wit en Fouzi Dada. We zitten beide op het Koning Willem 2 College.
+        Wij zijn de developers van HypotheekNavigator onze namen zijn Tristan de Wit en Fouzi Dada. We zitten beide op het Koning Willem 1 College.
     </p>
     <h2 class="Flexbox">
         Tristan de Wit

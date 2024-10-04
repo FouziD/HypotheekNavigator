@@ -5,6 +5,7 @@ Date: 20-09-2024
 De homepage van Hypotheek Navigator
 -->
 
+<!--    verwijzing naar de include en aanroepen-->
 <?php
     include "Includes/Header.php";
 ?>
@@ -30,6 +31,7 @@ De homepage van Hypotheek Navigator
            <br> Leer vandaag nog hoe wij uw aankoop van een nieuw huis kunnen vergemakkelijken!
         </p>
     </main>
+<!--    verwijzing naar de include en aanroepen-->
     <?php
     include "Includes/Footer.php";
     ?>

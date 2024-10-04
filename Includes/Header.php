@@ -1,10 +1,9 @@
-<?php
-/**
- * User: T. de Wit, F. Dada
- * Date: 20 - 9 - 2024
- * File: header.php
- */
-?>
+<!--
+name: Tristan Van de Wit, Fouzi Dada
+Date: 3-10-2024
+
+De header van de homepage van Hypotheek Navigator
+-->
 <!DOCTYPE html>
 <html lang="nl">
 <head>

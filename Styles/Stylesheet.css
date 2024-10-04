@@ -37,7 +37,6 @@ li a:hover
     background-color: #111;
 }
 
-
 header
 {
     background-color: aliceblue;
@@ -48,13 +47,14 @@ header
     width: 100vw;
     height: 10vh;
 }
+
 main
- {
+{
     top: 10vh;
     position: relative;
     text-align: center;
     z-index: 0;
- }
+}
 
 form, input, select, option,h4
 {
@@ -68,6 +68,7 @@ form, input, select, option,h4
     height: 9vh;
     position: fixed;
 }
+
 footer
 {
     background-color: aliceblue;
