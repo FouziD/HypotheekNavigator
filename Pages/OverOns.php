@@ -20,7 +20,7 @@ include "../Includes/Header.php";
     </h2>
     <img src="../images/" alt="Foto Tristan" class="FlexImg">
     <p class="Flexbox">
-        Mijn naam is Tristan de Wit en ik ben 17 jaar oud
+        Mijn naam is Tristan de Wit en ik ben 17 jaar oud. Ik ben in 2023 begonnen met de opleiding
     </p>
     <h2 class="Flexbox">
         Fouzi Dada

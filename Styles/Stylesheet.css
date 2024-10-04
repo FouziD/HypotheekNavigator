@@ -96,8 +96,7 @@ footer
 {
     display: flex;
     justify-content: center;
-    height: 200px;
-    background-color: white;
+    /*height: 200px;*/
 }
 
 .FlexImg
