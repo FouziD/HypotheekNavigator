@@ -9,9 +9,12 @@ include "../Includes/Header.php";
 ?>
 <body>
 <main>
+    <!-- Maakt een form aan die naar het bestand VragenAntwoord.php-->
     <form action="VragenAntwoord.php" method="get">
         <h4>
+            <!-- Maakt de vragen aan-->
             1. Voer uw voor en achternaam in<br>
+            <!--Maakt de input type textbox aan daar kun je vanalles invullen-->
             <input type="text" name="VoorenAchter"  required>
         </h4>
         <h4>
