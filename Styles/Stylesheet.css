@@ -44,10 +44,10 @@ li a:hover
 header
 {
     background-color: aliceblue;
-    top: 0px;
+    top: 0;
     position: fixed;
     z-index: 1;
-    left: 0px;
+    left: 0;
     width: 100vw;
     height: 10vh;
 }
