@@ -22,7 +22,10 @@ include "../Includes/Header.php";
             </h2>
             <img src="../images/" alt="Foto Tristan">
             <p>
-                Mijn naam is Tristan de Wit en ik ben 17 jaar oud
+                Mijn naam is Tristan de Wit en ik ben 17 jaar oud. Ik begon met de opleiding Software Development toen ik 15 jaar was(Dat jaar nog jarig). Ik werd een half jaar terug gezet omdat mijn cijfers niet voldoende waren.
+            </p>
+            <p>
+                Ik ben geboren op 11 september 2007. Mijn moeder heet Rian van Hoesel, mijn vader heet Patrick de Wit, mijn zus heet Hailey de Wit
             </p>
         </div>
         <div>

@@ -38,6 +38,9 @@ include "../Includes/Header.php";
                     echo "<h4>16. Wat is uw belangrijkste bron van informatie bij het kopen van een woning?:</h4> " . $_GET["Info"] . "<br><br>";
 
                     echo "<h4>17. Bent u bekend met de huidige huizenmarkt in uw regio?:</h4> " . $_GET["Bekend?"] . "<br><br><br><br><br>";
+                    ?>
+
+                    <?php
                     include "../Includes/Footer.php";
                     ?>
 
