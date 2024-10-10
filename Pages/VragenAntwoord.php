@@ -40,6 +40,5 @@ include "../Includes/Header.php";
                     echo "<h4>17. Bent u bekend met de huidige huizenmarkt in uw regio?:</h4> " . $_GET["Bekend?"] . "<br><br>";
 
                     ?>
-
 </main>
 </body>

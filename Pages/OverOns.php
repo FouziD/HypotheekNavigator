@@ -31,7 +31,8 @@ include "../Includes/Header.php";
             </h2>
             <img id="fouzi" src="../images/Fouzi_Dada.jpeg" alt="Foto Fouzi">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, dolor congue sodales blandit, sapien massa tempor mauris, consequat tristique orci neque id purus. Fusce eget pretium justo, ac maximus diam. Aliquam erat volutpat. Nunc ultrices ante non purus fringilla tempor. In eget ornare mi. Nunc eu magna diam. Phasellus eu lacus sit amet mauris blandit elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis magna suscipit, egestas ex id, ornare lacus. Praesent quis volutpat orci, in iaculis tellus. Nunc facilisis egestas tortor sed feugiat. Donec tempus sed eros id laoreet. Phasellus vel porta ex, in feugiat quam.
+                Fouzi, 19 jarige SD student op KW1C. Zet in lj 1,<br> en wil in de toekomst app developer worden.
+                Zijn hobbies zijn zwemmen, wandelen en is creatief.
             </p>
         </div>
     </div>

@@ -90,9 +90,10 @@ footer
 /*Maakt de klok*/
 #tijd
 {
-    position: fixed;
+    position: absolute;
     right: 150px;
     top: 5px;
+    margin: 0;
 }
 .flex-container
 {
@@ -110,3 +111,4 @@ footer
     height: 90px;
     width: 100px;
 }
+/*mediaqurie*/
