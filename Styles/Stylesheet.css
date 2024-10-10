@@ -2,10 +2,14 @@
 /*Date: 20-09-2024*/
 
 /*De style page van Hypotheek Navigator*/
+
+/*Naakt de body de kleur licht blauw*/
 body
 {
     background-color: #8b8bd5;
 }
+
+/*Geeft de lijst geen stijl, padding en margin. Als de lijst overspoeld word het verstopt*/
 ul
 {
     list-style-type: none;
@@ -14,10 +18,14 @@ ul
     overflow: hidden;
     background-color: aliceblue;
 }
+
+/*Laat de lijst naar links staan*/
 li
 {
     float: left;
 }
+
+/*Geeft de linken een Blokkig blauw achtergrond. Zet de woorden in het midden van het blok  */
 li a
 {
     display: block;
@@ -31,6 +39,8 @@ li a:hover
 {
     background-color: #111;
 }
+
+/*Geeft de header de achtergrond kleur aliceblue. Zorgt er voor dat er geen wit ruimte zit, zet de header op de voorgrond, geeft de header een breedte van de gehele pagina en een hoogte van 10% van het gehele scherm */
 header
 {
     background-color: aliceblue;
@@ -41,6 +51,8 @@ header
     width: 100vw;
     height: 10vh;
 }
+
+/*Zet de main pagina onder de header en op de achtergrond.*/
 main
 {
     top: 10vh;
@@ -49,10 +61,13 @@ main
     z-index: 0;
 }
 
+/*Zet de form op de voorgrond */
 form, input, select, option,h4
 {
     z-index: 1;
 }
+
+/*Zet de logo aan de rechter kant met een breedte van 5vw en een hoogte van 9vw*/
 #logo
 {
     right: 0;
@@ -60,6 +75,8 @@ form, input, select, option,h4
     height: 9vh;
     position: fixed;
 }
+
+/*Geeft de footer de achtergrond kleur aliceblue, zet het vast aan de bodem van de pagina met een breedte van 100vw*/
 footer
 {
     background-color: aliceblue;
@@ -69,6 +86,8 @@ footer
     width: 100vw;
     text-align: center;
 }
+
+/*Maakt de klok*/
 #tijd
 {
     position: fixed;
