@@ -2,12 +2,10 @@
 /*Date: 20-09-2024*/
 
 /*De style page van Hypotheek Navigator*/
-
 body
 {
     background-color: #8b8bd5;
 }
-
 ul
 {
     list-style-type: none;
@@ -16,12 +14,10 @@ ul
     overflow: hidden;
     background-color: aliceblue;
 }
-
 li
 {
     float: left;
 }
-
 li a
 {
     display: block;
@@ -30,13 +26,11 @@ li a
     padding: 14px 16px;
     text-decoration: none;
 }
-
 /* Change the link color to #111 (black) on hover */
 li a:hover
 {
     background-color: #111;
 }
-
 header
 {
     background-color: aliceblue;
@@ -47,7 +41,6 @@ header
     width: 100vw;
     height: 10vh;
 }
-
 main
 {
     top: 10vh;
@@ -60,7 +53,6 @@ form, input, select, option,h4
 {
     z-index: 1;
 }
-
 #logo
 {
     right: 0;
@@ -68,7 +60,6 @@ form, input, select, option,h4
     height: 9vh;
     position: fixed;
 }
-
 footer
 {
     background-color: aliceblue;
@@ -78,7 +69,6 @@ footer
     width: 100vw;
     text-align: center;
 }
-
 #tijd
 {
     position: fixed;
@@ -91,16 +81,19 @@ footer
     width: 100px;
     height: 40px;
 }
-
-.Flexbox
+.flex-container
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 200px;
-    background-color: white;
 }
-
-.FlexImg
+.flex-container div
 {
-    width: 10vw;
+    flex: none;
+    width: 300px;
+}
+#fouzi
+{
+    height: 90px;
+    width: 100px;
 }
