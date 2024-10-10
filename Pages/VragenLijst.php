@@ -159,6 +159,7 @@ include "../Includes/Header.php";
         </h4>
         <!-- Stuurt u door naar een andere pagina-->
        <input type="submit">
+        <br><br><br><br><br>
     </form>
 </main>
 <?php

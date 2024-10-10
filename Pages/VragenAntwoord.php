@@ -4,6 +4,7 @@ include "../Includes/Header.php";
 <body>
 <main>
     <?php
+//    Zet de antwoorden om in tekst
                     echo "<h4>1. Voer uw voor en achternaam in:</h4> " . $_GET["VoorenAchter"] . "<br><br>";
 
                     echo "<h4>2. Heeft u al eerdere ervaring met huizen kopen?:</h4> " . $_GET["JaofNee"] . "<br><br>";

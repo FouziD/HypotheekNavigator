@@ -9,6 +9,7 @@ De header van de homepage van Hypotheek Navigator
 <head>
     <title>
         <?php
+//        Zet de tijdzone in EU/ Amsterdam
         echo 'HypotheekNavigator';
         date_default_timezone_set('Europe/Amsterdam');
         ?>
@@ -20,10 +21,12 @@ De header van de homepage van Hypotheek Navigator
 </head>
 <body>
 <?php
+//      Maakt de homepagina index.php
     $homeurl = "http://localhost/Project_thema3/";
 ?>
 <header>
     <ul>
+<!--        Maakt linken-->
         <li>
             <a href="<?php echo $homeurl; ?>">Homepage</a>
         </li>
@@ -38,7 +41,7 @@ De header van de homepage van Hypotheek Navigator
         </li>
     </ul>
 
-
+<!--Maakt een klok-->
     <p id="tijd">
     <?php
     date_default_timezone_set('europe/amsterdam');
