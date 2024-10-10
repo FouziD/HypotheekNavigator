@@ -93,12 +93,6 @@ footer
     position: fixed;
     right: 150px;
     top: 5px;
-    text-align: center;
-    background-color: aquamarine;
-    border-radius: 50%;
-    border: dotted;
-    width: 100px;
-    height: 40px;
 }
 .flex-container
 {

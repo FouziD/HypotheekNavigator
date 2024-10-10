@@ -36,4 +36,8 @@ include "../Includes/Header.php";
         </div>
     </div>
 </main>
+<!--    verwijzing naar de include en aanroepen-->
+<?php
+include "../Includes/Footer.php";
+?>
 </body>
