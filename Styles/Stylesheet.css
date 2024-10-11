@@ -95,17 +95,23 @@ footer
     top: 5px;
     margin: 0;
 }
+
+/*Zet de vierkanten naast elkaar*/
 .flex-container
 {
     display: flex;
     justify-content: space-around;
     height: 200px;
 }
+
+/*Maakt een vierkant om de tekst*/
 .flex-container div
 {
     flex: none;
     width: 300px;
 }
+
+/*Geeft fouzi's vierkant een hoogte en breedte*/
 #fouzi
 {
     height: 90px;
