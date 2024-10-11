@@ -13,7 +13,7 @@
         <form action="VragenAntwoord.php" method="get">
             <h4>
                 <!-- Maakt de vragen aan-->
-                1. Voer uw voor en achternaam in<br>
+                1. Voer uw voor en achternaam in
                 <!--Maakt de input type textbox aan daar kun je van alles invullen-->
                 <input type="text" name="VoorenAchter"  required>
             </h4>
