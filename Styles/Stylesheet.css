@@ -92,7 +92,7 @@ footer
 {
     position: absolute;
     right: 150px;
-    top: 5px;
+    top: 90px;
     margin: 0;
 }
 
@@ -117,13 +117,36 @@ footer
     height: 90px;
     width: 100px;
 }
-/*mediaqurie*/
+/* Media queries */
 @media screen and (min-width: 400px)
 {
-
+    #logo
+    {
+        width: 12vw;
+        height: 7vh;
+    }
+    /* header bij over ons moet in width groter zijn*/
+    /* vragenlijst kan niet niet lager dan vraag 12 scrollen*/
+    #tijd
+    {
+        right: 55px;
+        top: 10px;
+    }
 }
 
 @media screen and (orientation: landscape) and (min-width: 900px)
 {
+    #logo
+    {
+        width: 7vw;
+        height:10vh;
+    }
+    /* scrollen naar beneden  bij over ons moet moet langer zijn*/
+    /* scrollen naar beneden  bij de homepage moet moet langer zijn*/
 
+    #tijd
+    {
+        right: 100px;
+        top: 5px;
+    }
 }
