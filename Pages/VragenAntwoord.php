@@ -28,8 +28,6 @@
             echo "<p>Eerdere aankoop:</p> " . $_GET["Eerdergekocht"];
             echo "<p>Te besteden tijd:</p> " . $_GET["Tijd"];
             echo "<p>Favoriete type woning: [ingevuld woningtype]</p>" . $_GET["Favo"];
-            echo "<p>Financieringsvorm:</p> " . $_GET["FinancieringsVorm"];
-            echo "<p>Belangrijke informatie bronnen:</p> " . $_GET["Info"];
             echo "<p>Bekendheid regionale huizenmarkt:</p> " . $_GET["Bekend?"];
         ?>
         </div>

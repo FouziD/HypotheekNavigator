@@ -27,8 +27,13 @@
             <h4>
                 <!-- Maakt de vragen aan-->
                 3. Wat is uw leeftijd
-               <!-- Geeft je keuze tussen alleen nummers-->
-                <input type="number" name="Leeftijd" required>
+                <!-- Geeft je meerdere keuzes-->
+                <select name="Leeftijd">
+                    <option value="Jongeren">18 jaar t/m 25 jaar</option>
+                    <option value="Volwassenen">30 jaar t/m 55 jaar</option>
+                    <option value="Ouderen">55 jaar t/m 75 jaar</option>
+                    <option value="Gepensioneerden">75 jaar t/m 90 jaar</option>
+                </select>
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
@@ -91,8 +96,13 @@
             <h4>
                 <!-- Maakt de vragen aan-->
                 9. Hoeveel personen wonen er momenteel in uw huishouden?
-                <!-- Geeft je keuze tussen alleen nummers-->
-                <input type="number" name="Aantal" required>
+                <!-- keuze tussen aantal nummers-->
+                <select name="Aantal">
+                    <option value="alleen">1 Persoon</option>
+                    <option value="koppel">2 Personen</option>
+                    <option value="familie">3 Personen</option>
+                    <option value="gezin">4 Personen</option>
+                </select>
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
@@ -134,24 +144,7 @@
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
-                15. Welke financieringsvorm overweegt u voor de aankoop van uw woning?
-                <!-- Geeft je meerdere keuzes-->
-                <select name="FinancieringsVorm">
-                    <option value="Hypotheek">Hypotheek</option>
-                    <option value="Eigen middelen">Eigen middelen</option>
-                    <option value="Combinatie van beide">Combinatie van beide</option>
-                    <option value="Anders">Anders</option>
-                </select>
-            </h4>
-            <h4>
-                <!-- Maakt de vragen aan-->
-                16. Wat is uw belangrijkste bron van informatie bij het kopen van een woning?
-                <!--Maakt de input type textbox aan daar kun je van alles invullen-->
-                <input type="text" name="Info" required>
-            </h4>
-            <h4>
-                <!-- Maakt de vragen aan-->
-                17. Bent u bekend met de huidige huizenmarkt in uw regio?
+                15. Bent u bekend met de huidige huizenmarkt in uw regio?
                 <!-- Geeft je keuze tussen 2 of meer-->
                 Ja,zeker<input type="radio" name="Bekend?" value="Ja,zeker" checked>
                 Enigszins<input type="radio" name="Bekend?" value="Enigszins">
