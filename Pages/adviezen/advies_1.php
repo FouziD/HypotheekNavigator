@@ -17,24 +17,6 @@ include "../../Includes/Header.php";
          Op basis van de door u verstrekte informatie hebben we een overzicht samengesteld van uw financiële situatie en mogelijkheden voor het kopen van een woning.
     </h3>
 
-    <div>
-        <?php
-        echo "<p>Uw Profiel:</p> ". "";
-        echo "  <p>Leeftijdscategorie:</p>" . "[ingevulde leeftijdscategorie]";
-
-        echo "<p>Jaarlijks bruto inkomen: [ingevulde inkomenscategorie]</p>";
-        echo "<p>Arbeidscontract: [ingevuld contracttype]</p>";
-        echo "<p>Eigen vermogen: [ingevulde vermogenscategorie]</p>";
-        echo "<p>Uw Woonwensen:</p>";
-        echo "<p>Geschatte waarde gewenste woning: [ingevulde waardecategorie]</p>";
-        echo "<p>
-        Favoriete type woning: [ingevuld woningtype]
-    </p>";
-        echo "<p>
-        Belangrijkste factor bij aankoop: [ingevulde factor]
-    </p>";
-    ?>
-    </div>
 
 </main>
 <?php
