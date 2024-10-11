@@ -1,47 +1,41 @@
 <?php
-include "../Includes/Header.php";
+    include "../Includes/Header.php";
 ?>
 <body>
-<main>
-    <?php
-//    Zet de antwoorden om in tekst
-                    echo "<h4>1. Voer uw voor en achternaam in:</h4> " . $_GET["VoorenAchter"] . "<br><br>";
+    <main>
+        <h1>
+            Persoonlijke advies
+        </h1>
+        <h3>
+            Welkom bij uw persoonlijke financiële overzicht.<br>
+            Op basis van de door u verstrekte informatie hebben we een overzicht samengesteld van uw financiële situatie en mogelijkheden voor het kopen van een woning.
+        </h3>
+        <div>
+        <?php
+            //    Zet de antwoorden om in tekst
+            echo "<p>Uw Profiel:</p>";
+            echo "<p>U naam:</p>" . $_GET["VoorenAchter"];
+            echo "<p>Eerdere ervaring:</p>" . $_GET["JaofNee"];
+            echo "  <p>Leeftijdscategorie:</p>" . $_GET["Leeftijd"];
+            echo "<p>Jaarlijks bruto inkomen:</p>" . $_GET["BrutoInkomen"];
+            echo "<p>Arbeidscontract:</p>" . $_GET["VastofFlexibel"];
+            echo "<p>Eigen vermogen: [ingevulde vermogenscategorie]</p>" . $_GET["EigenVermogen"];
+            echo "<p>Geschatte waarde gewenste woning:</p>" . $_GET["Waarde"];
+            echo "<p>Huidige woonsituatie?:</p>" . $_GET["Huidig"];
+            echo "<p>Aantal personen:</p> " . $_GET["Aantal"];
+            echo "<p>Woning koop plan:</p> " . $_GET["Kopen?"];
+            echo "<p>Belangrijkste factor bij aankoop:</p>". $_GET["Belangerijkste"];
+            echo "<p>Eerdere aankoop:</p> " . $_GET["Eerdergekocht"];
+            echo "<p>Te besteden tijd:</p> " . $_GET["Tijd"];
+            echo "<p>Favoriete type woning: [ingevuld woningtype]</p>" . $_GET["Favo"];
+            echo "<p>Financieringsvorm:</p> " . $_GET["FinancieringsVorm"];
+            echo "<p>Belangrijke informatie bronnen:</p> " . $_GET["Info"];
+            echo "<p>Bekendheid regionale huizenmarkt:</p> " . $_GET["Bekend?"];
+        ?>
+        </div>
 
-                    echo "<h4>2. Heeft u al eerdere ervaring met huizen kopen?:</h4> " . $_GET["JaofNee"] . "<br><br>";
-
-                    echo "<h4>3. Wat is uw leeftijd:</h4> " . $_GET["Leeftijd"] . "<br><br>";
-
-                    echo "<h4>4. Wat is uw jaarlijkse bruto inkomen:</h4> " . $_GET["BrutoInkomen"] . "<br><br>";
-
-                    echo "<h4>5. Heeft u een vast of flexibel arbeidscontract?:</h4> " . $_GET["VastofFlexibel"] . "<br><br>";
-
-                    echo "<h4>6. Hoeveel eigen vermogen kunt u inbrengen?:</h4> " . $_GET["EigenVermogen"] . "<br><br>";
-
-                    echo "<h4>7. Wat is de geschatte waarde van de woning die u wilt kopen?:</h4> " . $_GET["Waarde"] . "<br><br>";
-
-                    echo "<h4>8. Wat is uw huidige woonsituatie?:</h4> " . $_GET["Huidig"] . "<br><br>";
-
-                    echo "<h4>9. Hoeveel personen wonen er momenteel in uw huishouden?:</h4> " . $_GET["Aantal"] . "<br><br>";
-
-                    echo "<h4>10. Bent u van plan om binnen de komende 12 maanden een woning te kopen?:</h4> " . $_GET["Kopen?"] . "<br><br>";
-
-                    echo "<h4>11. Wat is voor u het belangrijkste bij het kopen van een woning?:</h4> " . $_GET["Belangerijkste"] . "<br><br>";
-
-                    echo "<h4>12. Heeft u al eerder een woning gekocht?:</h4> " . $_GET["Eerdergekocht"] . "<br><br>";
-
-                    echo "<h4>13. Hoeveel tijd bent u bereid te besteden aan het zoeken naar een woning?:</h4> " . $_GET["Tijd"] . "<br><br>";
-
-                    echo "<h4>14. Wat is uw favorieten type woning:</h4> " . $_GET["Favo"] . "<br><br>";
-
-                    echo "<h4>15. Welke financieringsvorm overweegt u voor de aankoop van uw woning?:</h4> " . $_GET["FinancieringsVorm"] . "<br><br>";
-
-                    echo "<h4>16. Wat is uw belangrijkste bron van informatie bij het kopen van een woning?:</h4> " . $_GET["Info"] . "<br><br>";
-
-                    echo "<h4>17. Bent u bekend met de huidige huizenmarkt in uw regio?:</h4> " . $_GET["Bekend?"] . "<br><br><br><br><br>";
-                    ?>
-
-                    <?php
-                    include "../Includes/Footer.php";
-                    ?>
-</main>
+        <?php
+            include "../Includes/Footer.php";
+        ?>
+    </main>
 </body>
