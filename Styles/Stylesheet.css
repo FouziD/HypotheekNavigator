@@ -71,8 +71,6 @@ form, input, select, option,h4
 #logo
 {
     right: 0;
-    width: 5vw;
-    height: 9vh;
     position: fixed;
 }
 
@@ -91,8 +89,6 @@ footer
 #tijd
 {
     position: absolute;
-    right: 150px;
-    top: 90px;
     margin: 0;
 }
 
