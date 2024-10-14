@@ -23,7 +23,6 @@ De vragenlijst van Hypotheek Navigator
                 Streef naar een hoger inkomen of een vast contract en vergroot uw spaargeld door een spaarplan op te stellen. <br>
                 Dit zal u helpen om uw eigen vermogen te vergroten, wat essentieel is voor het verkrijgen van een hypotheek.
             </p>
-
             <p>
                 Neem de tijd om de woningmarkt grondig te verkennen. <br>
                 Ontwikkel realistische verwachtingen en onderzoek verschillende regio's om geschikte woningen binnen uw budget te vinden. <br>
