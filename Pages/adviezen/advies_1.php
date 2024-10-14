@@ -19,8 +19,7 @@ De vragenlijst van Hypotheek Navigator
                 Eigen vermogen
             </h4>
             <p>
-                Uw eigen vermogen van minder dan €10.000 is relatief beperkt, wat de mogelijkheden voor een hypotheek verder kan beperken.
-            </p>
+                Uw eigen vermogen van minder dan €10.000 is relatief beperkt, wat de mogelijkheden voor een hypotheek verder kan beperken.            </p>
             <h3>
                 Woningmarkt en wensen
             </h3>
@@ -34,8 +33,7 @@ De vragenlijst van Hypotheek Navigator
                 Zoektijd
             </h3>
             <p>
-                U wilt minder dan een maand besteden aan het zoeken naar een woning. Gezien de huidige woningmarkt is dit mogelijk te kort, vooral als u specifieke wensen heeft.
-            </p>
+                U wilt minder dan een maand besteden aan het zoeken naar een woning. Gezien de huidige woningmarkt is dit mogelijk te kort, vooral als u specifieke wensen heeft.            </p>
             <h3>
                 Aanbevelingen
             </h3>
@@ -68,14 +66,14 @@ De vragenlijst van Hypotheek Navigator
                 Werk aan het verbeteren van uw arbeidssituatie voor betere hypotheekmogelijkheden.
             </p>
             <h4>
-                Zoek professioneel advies:
+                Zoek professioneel advies en begeleiding:
             </h4>
             <p>
-                Laat een hypotheekadviseur uw specifieke situatie beoordelen.
-                Bespreek mogelijke scenario's en strategieën om uw kansen op de woningmarkt te vergroten.
+                Zoek professioneel advies en begeleiding: Laat een hypotheekadviseur uw specifieke situatie beoordelen. Bespreek mogelijke scenario's en strategieën om uw kansen op de woningmarkt te vergroten. Zij kunnen u helpen bij het vinden van woningen die aan uw behoeften voldoen en u begeleiden door het koopproces.
             </p>
             <h4>
-                Wij raden aan om eerst te focussen op het versterken van uw financiële positie voordat u concrete stappen zet richting het kopen van een woning.<br>Met uw huidige situatie kan het lastig zijn om een hypotheek te krijgen die past bij uw wensen. Neem de tijd om u goed voor te bereiden en uw mogelijkheden te vergroten.
-            <br><br><br><br><br></h4>
+                Gezien uw huidige financiële situatie als jonge starter, adviseren wij u om eerst te focussen op het versterken van uw financiële positie voordat u concrete stappen zet richting het kopen van een woning. Hoewel het verkrijgen van een passende hypotheek momenteel uitdagend kan zijn, kunt u met de juiste voorbereiding, realistische verwachtingen en professionele begeleiding uw mogelijkheden vergroten. Neem de tijd om u goed te informeren en voor te bereiden, zodat u uiteindelijk weloverwogen de eerste stap kunt zetten naar het bezit van uw eigen huis.
+                <br><br><br><br><br>
+            </h4>
         </div>
     </article>

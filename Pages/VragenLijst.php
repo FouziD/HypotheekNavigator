@@ -96,10 +96,10 @@
                 9. Hoeveel personen wonen er momenteel in uw huishouden?
                 <!-- keuze tussen aantal nummers-->
                 <select name="Aantal">
-                    <option value="10">1 Persoon</option>
-                    <option value="20">2 Personen</option>
-                    <option value="30">3 Personen</option>
-                    <option value="40">4 Personen</option>
+                    <option value="alleen">1 Persoon</option>
+                    <option value="koppel">2 Personen</option>
+                    <option value="family">3 Personen</option>
+                    <option value="gezin">4 Personen</option>
                 </select>
             </h4>
             <h4>
