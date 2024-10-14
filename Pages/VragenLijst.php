@@ -55,7 +55,6 @@
                     <option value="Vast contract">Vast contract</option>
                     <option value="Flexibel contract">Flexibel contract</option>
                     <option value="Zelfstandig ondernemer">Zelfstandig ondernemer</option>
-                    <option value="Anders">Anders</option>
                 </select>
             </h4>
             <h4>
@@ -109,7 +108,6 @@
                 10. Bent u van plan om binnen de komende 12 maanden een woning te kopen?
                 <!-- Geeft je keuze tussen 2 of meer-->
                 Ja, zeker<input type="radio" name="Kopen?" value="Ja,zeker" checked>
-                Misschien<input type="radio" name="Kopen?" value="Misschien">
                 Nee<input type="radio" name="Kopen?" value="Nee">
             </h4>
             <h4>
