@@ -13,23 +13,28 @@
         <div>
         <?php
             //    Zet de antwoorden om in tekst
-            echo "<p>Uw Profiel:</p>";
-            echo "<p>U naam:</p>" . $_GET["VoorenAchter"];
-            echo "<p>Eerdere ervaring:</p>" . $_GET["JaofNee"];
-            echo "  <p>Leeftijdscategorie:</p>" . $_GET["Leeftijd"];
-            echo "<p>Jaarlijks bruto inkomen:</p>" . $_GET["BrutoInkomen"];
-            echo "<p>Arbeidscontract:</p>" . $_GET["VastofFlexibel"];
-            echo "<p>Eigen vermogen: [ingevulde vermogenscategorie]</p>" . $_GET["EigenVermogen"];
-            echo "<p>Geschatte waarde gewenste woning:</p>" . $_GET["Waarde"];
-            echo "<p>Huidige woonsituatie?:</p>" . $_GET["Huidig"];
-            echo "<p>Aantal personen:</p> " . $_GET["Aantal"];
-            echo "<p>Woning koop plan:</p> " . $_GET["Kopen?"];
-            echo "<p>Belangrijkste factor bij aankoop:</p>". $_GET["Belangerijkste"];
-            echo "<p>Eerdere aankoop:</p> " . $_GET["Eerdergekocht"];
-            echo "<p>Te besteden tijd:</p> " . $_GET["Tijd"];
-            echo "<p>Favoriete type woning: [ingevuld woningtype]</p>" . $_GET["Favo"];
-            echo "<p>Bekendheid regionale huizenmarkt:</p> " . $_GET["Bekend?"];
-        ?>
+            $totaal = 0;
+          foreach ($_POST as $key => $value)
+          {
+
+              if (substr($key, 0, 5) == "count")
+              {
+                  $totaal += $value;
+              }
+
+          }
+            switch ($totaal)
+            {
+                case ($totaal <= 60);
+                    include "adviezen/advies_1.php";
+                    break;
+                case ($totaal > 60 && $totaal <= 120);
+                    include "adviezen/advies_2.php";
+                    break;
+            }
+
+        echo "Het totaal is: " . $totaal;
+          ?>
         </div>
 
         <?php

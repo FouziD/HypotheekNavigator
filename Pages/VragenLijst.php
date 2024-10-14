@@ -10,7 +10,7 @@
 <body>
     <main>
         <!-- Maakt een form aan die naar het bestand VragenAntwoord.php-->
-        <form action="VragenAntwoord.php" method="get">
+        <form action="VragenAntwoord.php" method="post">
             <h4>
                 <!-- Maakt de vragen aan-->
                 1. Voer uw voor en achternaam in
@@ -28,57 +28,56 @@
                 <!-- Maakt de vragen aan-->
                 3. Wat is uw leeftijd
                 <!-- Geeft je meerdere keuzes-->
-                <select name="Leeftijd">
-                    <option value="Jongeren">18 jaar t/m 25 jaar</option>
-                    <option value="Volwassenen">30 jaar t/m 55 jaar</option>
-                    <option value="Ouderen">55 jaar t/m 75 jaar</option>
-                    <option value="Gepensioneerden">75 jaar t/m 90 jaar</option>
+                <select name="countLeeftijd">
+                    <option value="10">18 jaar t/m 25 jaar</option>
+                    <option value="20">30 jaar t/m 55 jaar</option>
+                    <option value="30">55 jaar t/m 75 jaar</option>
                 </select>
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
                 4. Wat is uw jaarlijkse bruto-inkomen
                <!-- Geeft je meerdere keuzes-->
-                <select name="BrutoInkomen">
-                    <option value="Minder dan €30.000">Minder dan €30.000</option>
-                    <option value="€30.000 - €50.000">€30.000 - €50.000</option>
-                    <option value="€50.000 - €75.000">€50.000 - €75.000</option>
-                    <option value="€75.000 - €100.000">€75.000 - €100.000</option>
-                    <option value="Meer dan €100.000">Meer dan €100.000</option>
+                <select name="countBrutoInkomen">
+                    <option value="10">Minder dan €30.000</option>
+                    <option value="20">€30.000 - €50.000</option>
+                    <option value="30">€50.000 - €75.000</option>
+                    <option value="40">€75.000 - €100.000</option>
+                    <option value="50">Meer dan €100.000</option>
                 </select>
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
                 5. Heeft u een vast of flexibel arbeidscontract?
                 <!-- Geeft je meerdere keuzes-->
-                <select name="VastofFlexibel" >
-                    <option value="Vast contract">Vast contract</option>
-                    <option value="Flexibel contract">Flexibel contract</option>
-                    <option value="Zelfstandig ondernemer">Zelfstandig ondernemer</option>
+                <select name="countVastofFlexibel" >
+                    <option value="10">Vast contract</option>
+                    <option value="20">Flexibel contract</option>
+                    <option value="30">Zelfstandig ondernemer</option>
                 </select>
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
                 6. Hoeveel eigen vermogen kunt u inbrengen?
                 <!-- Geeft je meerdere keuzes-->
-                <select name="EigenVermogen">
-                    <option value="Minder dan €10.000">Minder dan €10.000</option>
-                    <option value="€10.000 - €25.000">€10.000 - €25.000</option>
-                    <option value="€25.000 - €50.000">€25.000 - €50.000</option>
-                    <option value="€50.000 - €100.000">€50.000 - €100.000</option>
-                    <option value="Meer dan €100.000">Meer dan €100.000</option>
+                <select name="countEigenVermogen">
+                    <option value="10">Minder dan €10.000</option>
+                    <option value="20">€10.000 - €25.000</option>
+                    <option value="30">€25.000 - €50.000</option>
+                    <option value="40">€50.000 - €100.000</option>
+                    <option value="50">Meer dan €100.000</option>
                 </select>
             </h4>
             <h4>
                 <!-- Maakt de vragen aan-->
                 7. Wat is de geschatte waarde van de woning die u wilt kopen?
                 <!-- Geeft je meerdere keuzes-->
-                <select name="Waarde">
-                    <option value="Minder dan €200.000">Minder dan €200.000 </option>
-                    <option value="€200.000 - €300.000">€200.000 - €300.000 </option>
-                    <option value="€300.000 - €400.000">€300.000 - €400.000 </option>
-                    <option value="€400.000 - €500.000">€400.000 - €500.000 </option>
-                    <option value="Meer dan €500.000">Meer dan €500.000 </option>
+                <select name="countWaarde">
+                    <option value="10">Minder dan €200.000 </option>
+                    <option value="20">€200.000 - €300.000 </option>
+                    <option value="30">€300.000 - €400.000 </option>
+                    <option value="40">€400.000 - €500.000 </option>
+                    <option value="50">Meer dan €500.000 </option>
                 </select>
             </h4>
             <h4>
@@ -97,10 +96,10 @@
                 9. Hoeveel personen wonen er momenteel in uw huishouden?
                 <!-- keuze tussen aantal nummers-->
                 <select name="Aantal">
-                    <option value="alleen">1 Persoon</option>
-                    <option value="koppel">2 Personen</option>
-                    <option value="familie">3 Personen</option>
-                    <option value="gezin">4 Personen</option>
+                    <option value="10">1 Persoon</option>
+                    <option value="20">2 Personen</option>
+                    <option value="30">3 Personen</option>
+                    <option value="40">4 Personen</option>
                 </select>
             </h4>
             <h4>
@@ -152,6 +151,8 @@
            <input type="submit">
             <br><br><br><br><br>
         </form>
+
+
     </main>
     <?php
         include "../Includes/Footer.php";
