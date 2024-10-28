@@ -3,13 +3,6 @@
 ?>
 <body>
     <main>
-        <h1>
-            Persoonlijke advies
-        </h1>
-        <h3>
-            Welkom bij uw persoonlijke financiële overzicht.<br>
-            Op basis van de door u verstrekte informatie hebben we een overzicht samengesteld van uw financiële situatie en mogelijkheden voor het kopen van een woning.
-        </h3>
         <div>
         <?php
             //    Zet de antwoorden om in tekst
