@@ -3,7 +3,7 @@
 
 /*De style page van Hypotheek Navigator*/
 
-/*Naakt de body de kleur licht blauw*/
+/*Maakt de body de kleur licht blauw*/
 body
 {
     background-color: #8b8bd5;
@@ -18,13 +18,11 @@ ul
     overflow: hidden;
     background-color: aliceblue;
 }
-
 /*Laat de lijst naar links staan*/
 li
 {
     float: left;
 }
-
 /*Geeft de linken een Blokkig blauw achtergrond. Zet de woorden in het midden van het blok  */
 li a
 {
@@ -39,7 +37,6 @@ li a:hover
 {
     background-color: #111;
 }
-
 /*Geeft de header de achtergrond kleur aliceblue. Zorgt er voor dat er geen wit ruimte zit, zet de header op de voorgrond, geeft de header een breedte van de gehele pagina en een hoogte van 10% van het gehele scherm */
 header
 {
@@ -51,7 +48,6 @@ header
     width: 100vw;
     height: 10vh;
 }
-
 /*Zet de main pagina onder de header en op de achtergrond.*/
 main
 {
@@ -59,13 +55,11 @@ main
     text-align: center;
     z-index: 0;
 }
-
 /*Zet de form op de voorgrond */
 form, input, select, option,h4
 {
     z-index: 1;
 }
-
 /*Zet de logo aan de rechter kant met een breedte van 5vw en een hoogte van 9vw*/
 #logo
 {
@@ -74,7 +68,6 @@ form, input, select, option,h4
     right: 0;
     position: fixed;
 }
-
 /*Geeft de footer de achtergrond kleur aliceblue, zet het vast aan de bodem van de pagina met een breedte van 100vw*/
 footer
 {
@@ -85,14 +78,19 @@ footer
     width: 100vw;
     text-align: center;
 }
-
 /*Maakt de klok*/
 #tijd
 {
+    right: 100px;
+    top:5px;
     position: absolute;
     margin: 0;
 }
-
+/* de plaats vanm de main */
+#vragenmain
+{
+    text-align: left;
+}
 /*Zet de vierkanten naast elkaar*/
 .flex-container
 {
@@ -100,14 +98,12 @@ footer
     justify-content: space-around;
     width: 100%;
 }
-
 /*Maakt een vierkant om de tekst*/
 .flex-container div
 {
     flex: none;
     width: 50%;
 }
-
 /*Geeft fouzi's vierkant een hoogte en breedte*/
 #fouzi
 {
@@ -122,7 +118,6 @@ footer
         width: 12vw;
         height: 7vh;
     }
-    /* header bij over ons moet in width groter zijn*/
     header
     {
         width: 100vw;
@@ -132,7 +127,7 @@ footer
         right: 40px;
         top: 10px;
     }
-    /*Zet de vierkanten naast elkaar*/
+    /*Zet de vierkanten vast*/
     .flex-container
     {
         display: block;
@@ -150,7 +145,6 @@ footer
         width: 7vw;
         height:10vh;
     }
-    /* scrollen naar beneden  bij over ons en de homepage moet moet langer zijn*/
     main
     {
         min-height: 150vh;

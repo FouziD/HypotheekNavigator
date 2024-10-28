@@ -8,7 +8,9 @@
     include "../Includes/Header.php";
 ?>
 <body>
-    <main>
+    <main id="vragenmain">
+        <br><br><br>
+        <h3>Vul de vragenlijst hieronder om een persoonlijke advies die alleen voor u is te krijgen.</h3>
         <!-- Maakt een form aan die naar het bestand VragenAntwoord.php-->
         <form action="VragenAntwoord.php" method="post">
             <h4>
