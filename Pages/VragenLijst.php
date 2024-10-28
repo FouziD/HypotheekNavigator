@@ -151,8 +151,6 @@
            <input type="submit">
             <br><br><br><br><br>
         </form>
-
-
     </main>
     <?php
         include "../Includes/Footer.php";

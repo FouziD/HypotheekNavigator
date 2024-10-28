@@ -56,7 +56,6 @@ header
 main
 {
     top: 10vh;
-    position: relative;
     text-align: center;
     z-index: 0;
 }
@@ -70,6 +69,8 @@ form, input, select, option,h4
 /*Zet de logo aan de rechter kant met een breedte van 5vw en een hoogte van 9vw*/
 #logo
 {
+    height: 10vh;
+    width: 10vh;
     right: 0;
     position: fixed;
 }
@@ -97,14 +98,14 @@ footer
 {
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    width: 100%;
 }
 
 /*Maakt een vierkant om de tekst*/
 .flex-container div
 {
     flex: none;
-    width: 300px;
+    width: 50%;
 }
 
 /*Geeft fouzi's vierkant een hoogte en breedte*/
@@ -114,7 +115,7 @@ footer
     width: 100px;
 }
 /* Media queries */
-@media screen and (min-width: 400px)
+@media screen and (max-width: 450px)
 {
     #logo
     {
@@ -122,24 +123,38 @@ footer
         height: 7vh;
     }
     /* header bij over ons moet in width groter zijn*/
-    /* vragenlijst kan niet niet lager dan vraag 12 scrollen*/
+    header
+    {
+        width: 100vw;
+    }
     #tijd
     {
-        right: 55px;
+        right: 40px;
         top: 10px;
     }
+    /*Zet de vierkanten naast elkaar*/
+    .flex-container
+    {
+        display: block;
+    }
+    /*Maakt een vierkant om de tekst*/
+    .flex-container div
+    {
+        width: 100%;
+    }
 }
-
-@media screen and (orientation: landscape) and (min-width: 900px)
+@media screen and (orientation: landscape) and (max-width: 900px)
 {
     #logo
     {
         width: 7vw;
         height:10vh;
     }
-    /* scrollen naar beneden  bij over ons moet moet langer zijn*/
-    /* scrollen naar beneden  bij de homepage moet moet langer zijn*/
-
+    /* scrollen naar beneden  bij over ons en de homepage moet moet langer zijn*/
+    main
+    {
+        min-height: 150vh;
+    }
     #tijd
     {
         /* meer van de logo af*/
