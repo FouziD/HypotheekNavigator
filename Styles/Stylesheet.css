@@ -158,8 +158,8 @@ footer
 
     #Tristan
     {
-        position: fixed;
-        width: 10vw;
-        height:auto;
+        position: relative;
+        width: 100px;
+        height: auto;
     }
 }
