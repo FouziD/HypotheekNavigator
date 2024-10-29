@@ -156,10 +156,11 @@ footer
         top: 5px;
     }
 
-    #Tristan
-    {
-        position: relative;
-        width: 100px;
-        height: auto;
-    }
+
+}
+#Tristan
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
 }
