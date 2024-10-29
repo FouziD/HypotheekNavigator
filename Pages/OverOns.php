@@ -20,7 +20,7 @@ include "../Includes/Header.php";
             <h2>
                 Tristan de Wit
             </h2>
-            <img src="../images/TristandeWit.jpg" alt="Foto Tristan">
+            <img src="../images/TristandeWit.jpg" alt="Foto Tristan" id="Tristan">
             <p>
                 Mijn naam is Tristan de Wit en ik ben 17 jaar oud. Ik begon met de opleiding Software Development toen ik 15 jaar was(Dat jaar nog jarig). Ik werd een half jaar terug gezet omdat mijn cijfers niet voldoende waren.
             </p>
