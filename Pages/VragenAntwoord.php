@@ -36,7 +36,6 @@
                     include "adviezen/advies_5.php";
                     break;
             }
-//        echo "Het totaal is: " . $totaal;
           ?>
         </div>
 
