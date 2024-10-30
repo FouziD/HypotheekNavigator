@@ -35,6 +35,7 @@
                 case ($totaal > 160 && $totaal <= 180);
                     include "adviezen/advies_5.php";
                     break;
+                    echo  "Het totaal aantal punten is " . $totaal;
             }
           ?>
         </div>
