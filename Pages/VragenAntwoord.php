@@ -16,7 +16,6 @@
               }
 
           }
-
             // Telt de punt die worden aangegeven bij de vragen lijst van mim 50 en max 180 punten is
             switch ($totaal)
             {
